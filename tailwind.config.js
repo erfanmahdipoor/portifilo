@@ -1,3 +1,5 @@
+const { color } = require('framer-motion');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -24,7 +26,8 @@ module.exports = {
       colors: {
         primary: '#131424',
         secondary: '#393A47',
-        accent: '#F13024',
+        accent: '#16b10e6c',
+        accent2: '#2ed9ef',
       },
       backgroundImage: {
         explosion: 'url("/bg-explosion.png")',
