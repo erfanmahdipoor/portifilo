@@ -54,7 +54,16 @@ const Home = () => {
         </motion.div>
       </div>
       {/*image*/}
-      <div>image</div>
+      <div className="w-[1200px] h-full absolute right-0 bottom-0">
+        {/*bg-image*/}
+        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-righ xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"></div>
+       {/*particle*/}
+        <div>particle</div>
+       {/*avatar img*/}
+        <div>
+          <Avatar/>
+        </div>
+      </div>
     </div>
   );
 };
