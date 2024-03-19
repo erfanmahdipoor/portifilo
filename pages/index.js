@@ -22,7 +22,7 @@ const Home = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="h1"
+          className="h1 mt-80"
         >
           {/*title*/}
           transforming Ideas <br /> into{" "}
@@ -37,10 +37,10 @@ const Home = () => {
           className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
         >
           lorem20sdmflksdf,;lsd;l jlskjdflksdjlkfjsfsdkjflksdjlkfjslkdjflskn sdm
-          fkjsbdfk sjkd fks dfh sdk fkjsdbfkjh sdkf ksd f
+          
         </motion.p>
         {/*btn*/}
-        <div className="flex justify-center xl:hidden relative">
+        <div className="flex justify-center xl:hidden relative mb-56">
           <ProjectsBtn />
         </div>
         <motion.div
