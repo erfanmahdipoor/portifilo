@@ -50,7 +50,7 @@ const Work = () => {
           <WorkSlider />
         </motion.div>
       </div>
-      <Bulb />
+      {/* <Bulb /> */}
       <ParticlesContainer/>
     </div>
   );
