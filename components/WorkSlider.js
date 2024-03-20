@@ -16,7 +16,7 @@ import FreeModes from "swiper/css/free-mode";
 import Paginationages from "swiper/css/pagination";
 
 //import required modules
-import { FreeMode, Pagination } from "swiper";
+import { Navigation, FreeMode, Pagination } from "swiper";
 import { rule } from "postcss";
 
 //components
@@ -57,6 +57,7 @@ const WorkSlider = () => {
       //   320: { slidesPerView: 1, spaceBetween: 15 },
       //   640: { slidesPerView: 3, spaceBetween: 15 },
       // }}
+      // navigation={true}
       spaceBetween={10}
       freeMode={true}
       pagination={{ clickable: true }}
