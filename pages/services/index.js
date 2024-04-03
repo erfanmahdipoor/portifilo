@@ -6,7 +6,7 @@ import P from "../../components/ParticlesContainer";
 //farmer motion
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
-import ParticlesContainer from "../../components/ParticlesContainer";
+// import ParticlesContainer from "../../components/ParticlesContainer";
 
 const Services = () => {
   return (
@@ -51,7 +51,7 @@ const Services = () => {
         </motion.div>
       </div>
       <Bulb />
-      <ParticlesContainer/>
+      {/* <ParticlesContainer/> */}
     </div>
   );
 };

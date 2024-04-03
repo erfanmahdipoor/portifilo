@@ -91,7 +91,7 @@ const aboutData = [
 //components
 import Avatar from "../../components/Avatar";
 import Circles from "../../components/Circles";
-import ParticlesContainer from "../../components/ParticlesContainer";
+// import ParticlesContainer from "../../components/ParticlesContainer";
 //farmer motion
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
@@ -116,7 +116,7 @@ const About = () => {
         <Avatar />
       </motion.div>
       {/* {pricticl} */}
-      <ParticlesContainer />
+      {/* <ParticlesContainer /> */}
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 mt-14">
         {/* {text} */}
         <div className="flex flex-1 flex-col justify-center ml-6 xl:font-thin">

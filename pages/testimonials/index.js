@@ -1,6 +1,6 @@
 import Bulb from "../../components/Bulb";
 import Circle from "../../components/Circles";
-import ParticlesContainer from "../../components/ParticlesContainer";
+// import ParticlesContainer from "../../components/ParticlesContainer";
 import TestimonialSlider from "../../components/TestimonialSlider";
 //farmer motion
 import { motion } from "framer-motion";
@@ -32,7 +32,7 @@ const Work = () => {
           <TestimonialSlider />
         </motion.div>
       </div>
-      <ParticlesContainer/>
+      {/* <ParticlesContainer/> */}
     </div>
   );
 };
